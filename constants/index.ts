@@ -254,25 +254,44 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
+    title: "Dentwize (AI-assisted web app)",
+    description:
+      "Built a full-stack web application with Next.js and TypeScript, using Prisma for database modeling and persistence. Integrated an AI voice/chat experience via Vapi AI to enable real-time user interaction with an assistant. Implemented secure authentication with Clerk, and focused on a clean, responsive UI with a modern component system and form validation.",
+    image: "/projects/Dentwise (AI-assisted web app).png",
+    link: "https://detwize-ai.onrender.com/",
+    github:"https://github.com/yousef-v7/detwize---AI/tree/main"
+  },
+  {
+    title: "spotify clone",
+    description:
+      "Spotify Clone — A full-stack music streaming web application inspired by Spotify. Users can sign up, upload songs and albums, play music, browse playlists, and view real-time friends activity. Built with React, Tailwind CSS, Node.js, Express, MongoDB, and Socket.io.",
+    image: "/projects/spotify clone.png",
+    link: "https://spotify-clone-7kow.onrender.com/",
+    github: "https://github.com/yousef-v7/spotify-clone"
+  },
+  {
     title: "Twist",
     description:
       "Social Media App – A Twitter-like platform where users can post, like, and comment. Built to explore real-time interactions and core social features.",
     image: "/projects/twist-cover.png",
     link: "https://twist-lyart.vercel.app/",
+    github: "https://github.com/yousef-v7/Twist"
   },
   {
     title: "e-commerce website",
     description:
-      'E-commerce Website – A full-stack web app with product listings, cart, user auth, and order processing. Images are temporary placeholders, as the focus was on building core features over final visuals.',
+      "E-commerce Website – A full-stack web app with product listings, cart, user auth, and order processing. Images are temporary placeholders, as the focus was on building core features over final visuals.",
     image: "/projects/Rabbit - cover - Copy.png",
     link: "https://demo-rabbit-frontend.vercel.app/",
+    github: "https://github.com/yousef-v7/DEMO-Rabbit"
   },
   {
     title: "Backend api",
     description:
-      'A backend API built with NestJS following REST principles. It includes core features like CRUD operations, structured modules, DTO validation, and organized service-layer architecture.',
+      "A backend API built with NestJS following REST principles. It includes core features like CRUD operations, structured modules, DTO validation, and organized service-layer architecture.",
     image: "/projects/backend-api-cover.png",
     link: "https://nestjs-demo-olive.vercel.app/",
+    github: "https://github.com/yousef-v7/Nestjs_demo"
   },
 ] as const;
 
